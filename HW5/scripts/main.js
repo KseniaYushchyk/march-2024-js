@@ -137,5 +137,6 @@ let exchange = (currency,value,convertedCurrency) => {
         exchangeCurrency = value * 1.08;
     }
     return exchangeCurrency;
-}
+};
     console.log(exchange('UAH', 1000, 'USD'));
+
