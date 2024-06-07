@@ -17,4 +17,5 @@ fetch('http://jsonplaceholder.typicode.com/users')
             userCard.appendChild(userLink);
             usersDiv.appendChild(userCard);
         });
+
     })
